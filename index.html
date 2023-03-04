@@ -26,30 +26,38 @@
 					<li><a href="#" class="nav-link px-2 text-black">Meteo</a></li>
 				</ul>
 
-				<div class="d-flex">
-					<div class="dropdown-me-1">
-						<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-							aria-expanded="false" data-bs-offset="10,20">
-							Language
-						</button>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Romana</a></li>
-							<li><a class="dropdown-item" href="#">English</a></li>
-						</ul>
+				<div class="collapse" id="navbarToggleExternalContent">
+					<div class="navbar">
+						<form class="d-flex" role="search">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success" type="submit">Search</button>
+						</form>
 					</div>
-
-					<form class="d-flex" role="search">
-						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success" type="submit">Search</button>
-					</form>
-
-					</form>
 				</div>
+				<nav class="navbar">
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</div>
+				</nav>
+
 			</div>
+		</div>
 	</header>
 
+	<div class="nav-top">
+		<h3>TopNews</h3>
+		<div>
+			<span>Last update 1h ago</span>
+		</div>
+
+	</div>
 	<div class="headline">
 		<div class="primary-card">
+
 			<div class="card mb-3">
 				<img src="./assets/no-money-2070384_640.jpg" class="card-img-top" alt="no_money">
 				<div class="card-body">
@@ -61,6 +69,8 @@
 				</div>
 			</div>
 		</div>
+
+
 		<div class="side-cards">
 			<div class="card text mb-3" style="max-width: 18rem;">
 				<div class="card-header">
@@ -102,7 +112,7 @@
 		</div>
 	</div>
 
-
+	<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 
 </html>

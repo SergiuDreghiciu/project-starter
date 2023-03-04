@@ -1,23 +1,38 @@
 .header {
+	border: solid black 2px;
 	background-color: aquamarine;
-	display: inline-block;
+	display: flex;
 	height: 120px;
 	width: 100%;
 	min-width: 600px;
 
+
 }
+
 .headline {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(10, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
-	}
+}
 
-	.primary-card { grid-area: 2 / 1 / 10 / 4; }
-	.side-cards { grid-area: 2 / 5 / 10 / 6; }
 
-.primary-card{
+.primary-card {
+	grid-area: 1 / 1 / 10 / 4;
+}
+
+.side-cards {
+	grid-area: 1 / 5 / 10 / 6;
+}
+
+.primary-card {
 	max-width: 100%;
 	min-width: 18rem;
+}
+
+.nav-top {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: rgb(25, 203, 247) solid 2px;
 }
