@@ -3,36 +3,21 @@
 	display: inline-block;
 	height: 120px;
 	width: 100%;
-}
+	min-width: 600px;
 
+}
 .headline {
 	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(10, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-style: italic;
+	}
 
-}
+	.primary-card { grid-area: 2 / 1 / 10 / 4; }
+	.side-cards { grid-area: 2 / 5 / 10 / 6; }
 
-.headline1 {
-	grid-area: 1 / 1 / 2 / 3;
-}
-
-.headline2 {
-	grid-area: 1 / 8 / 2 / 9;
-}
-
-.card-text {
-	font-size: 12px;
-	color: rgb(21, 166, 244);
-}
-.card-title{
-	font-size: 16px;
-	color: rgb(21, 166, 244);
-}
-.card-img{
-	height: 240px;
-	width: 100px;
+.primary-card{
+	max-width: 100%;
+	min-width: 18rem;
 }
