@@ -12,19 +12,31 @@
 .headline {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(10, 1fr);
+	grid-template-rows: repeat(1, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 }
 
 
 .primary-card {
-	grid-area: 1 / 1 / 10 / 4;
+	grid-area: 1 / 1 / 1 / 4;
 }
 
-.side-cards {
-	grid-area: 1 / 5 / 10 / 6;
+
+
+.article-side {
+	border: solid black 2px;
+	background-color: rgb(178, 254, 229);
+	grid-area: 1 / 5 / 1 / 5;
+	justify-content: right;
+	display: inline-block;
+	font-size: 20px;
+	max-width: 100%;
+	min-width: 6rem;
+
 }
+
+
 
 .primary-card {
 	max-width: 100%;
@@ -36,3 +48,19 @@
 	justify-content: space-between;
 	border-bottom: rgb(25, 203, 247) solid 2px;
 }
+
+
+.nav-mid {
+	border-bottom: rgb(25, 203, 247) solid 2px;
+}
+.article-other {
+  margin: 0;
+  padding: 1px;
+  border: 5px solid lightblue;
+  display: flex;
+}
+.bt-article{
+	border: 5px solid lightblue;
+}
+
+
