@@ -1,12 +1,17 @@
 .header {
 	border: solid black 2px;
-	background-color: aquamarine;
+	background-color:#aeb1b2 ;
 	display: flex;
 	height: 120px;
 	width: 100%;
 	min-width: 600px;
 
 
+}
+
+.logo{
+	width: 180px;
+	height: 100px;
 }
 
 .headline {
@@ -26,7 +31,7 @@
 
 .article-side {
 	border: solid black 2px;
-	background-color: rgb(178, 254, 229);
+	background-color: #aeb1b2;
 	grid-area: 1 / 5 / 1 / 5;
 	justify-content: right;
 	display: inline-block;
@@ -46,21 +51,30 @@
 .nav-top {
 	display: flex;
 	justify-content: space-between;
-	border-bottom: rgb(25, 203, 247) solid 2px;
+	border-bottom: #aeb1b2 solid 2px;
 }
 
 
 .nav-mid {
-	border-bottom: rgb(25, 203, 247) solid 2px;
+	border-bottom: #aeb1b2 solid 2px;
 }
 .article-other {
   margin: 0;
   padding: 1px;
-  border: 5px solid lightblue;
+  border: 5px solid #aeb1b2;
   display: flex;
 }
 .bt-article{
-	border: 5px solid lightblue;
+	border: 5px solid #aeb1b2;
 }
 
+.article-earth{
+	max-width: 100%;
+}
+.article-ukraine{
+	max-width: 100%;
+}
+.article-people{
+	max-width: 100%;
+}
 
