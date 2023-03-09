@@ -42,6 +42,7 @@
 .article-side {
 	border: solid black 2px;
 	background-color: #aeb1b2;
+	background-color: #aeb1b2;
 	grid-area: 1 / 5 / 1 / 5;
 	justify-content: right;
 	display: inline-block;
@@ -134,57 +135,3 @@
 }
 
 
-.main-article {
-	display: table;
-	width: 50%;
-	padding: 5px;
-	height: auto;
-	margin: 5%;
-	border-right: #aeb1b2 solid 2px;
-
-}
-
-.side-article {
-	display: table;
-
-	width: 25%;
-	padding: 5px;
-	height: auto;
-	border: #aeb1b2 solid 2px;
-	background-color: #aeb1b2;
-	margin: 5%;
-}
-
-.first-section {
-	max-width: 100%;
-	height: 400px;
-
-}
-
-.footer {
-	position: absolute;
-	background-color: #aeb1b2;
-	border: solid #000 2px;
-	height: 190px;
-	width: 100%;
-	min-width: 600px;
-	margin: 0;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-
-}
-
-a:visited {
-	color: #f20f0f;
-}
-
-.logo-footer {
-	width: 90px;
-	height: 60px;
-}
-
-.footer-col {
-	margin-left: 3rem;
-	margin-right: 3rem;
-}
